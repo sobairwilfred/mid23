@@ -1,3 +1,3 @@
 # mid23
 
-something about algorithmus and programming
+Repostory for MID23 of FHD.
