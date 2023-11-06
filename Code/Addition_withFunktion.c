@@ -9,8 +9,8 @@ int addition(int a, int b){
 }
 
 main(){
-    int a=6;
-    int b=7;
-    int c=addition(a,b);
-    ausgeben(a,b,c);
+    int x=6;
+    int y=7;
+    int s=addition(x,y);
+    ausgeben(x,y,s);
 }
