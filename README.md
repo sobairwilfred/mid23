@@ -1,3 +1,3 @@
 # mid23
 
-Repostory for MID23 of FHD.
+Repository for MID23 of FHD.
