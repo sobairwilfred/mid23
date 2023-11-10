@@ -1,0 +1,52 @@
+*{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+  background-color: rgb(195, 240, 166);
+ 
+}
+
+h1 {
+  color: #000000;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+/*h2,h3,h4 ein Group zusammensetzen*/
+h2,h3,h4{
+  color:rgb(40, 182, 127);
+}
+
+/*Hier eine Tabelle, um meine Webseite in der Mitte zu zentrieren*/
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color:  rgb(195, 240, 166);
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgb(110, 165, 73);
+  margin: rgb(77, 116, 52);
+  border: 1px solid rgb(195, 240, 166);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.orange{
+  color:rgb(243, 165, 63);
+  font-family: fantasy;
+}
+.green{
+  color:rgb(12, 78, 29);
+  text-shadow: 2px 2px 5px rgb(108, 136, 94);
+  font-family: monospace;
+}
+
+#Test {
+  color:rgb(6, 68, 25);
+}
