@@ -4,15 +4,15 @@ void ausgabe(int * array, int size) {
     for(int i = 0; i < size; i++) {
         printf("Addresse = %p\n", array);
         printf("Wert = %i\n", *array);
-        *array++;//different to: (*array)++;
+        array++;//different to: (*array)++;
     }
     printf("\n");
 }
 
-int geteiltDurch(int * array, int size, int divisor) {
+void geteiltDurch(int * array, int size, int divisor) {
     for (int i=0; i<size; i++){
         (*array)/=divisor;
-        *array++;
+        array++;
     }
 }
 
