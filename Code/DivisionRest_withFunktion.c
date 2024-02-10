@@ -13,7 +13,7 @@ int modulo(int a, int b){
     return d;
 }
 
-main(){
+int main(){
     int x=23;
     int y=7;
     int q=quotient(x,y);
