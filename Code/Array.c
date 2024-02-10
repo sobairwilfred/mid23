@@ -103,7 +103,7 @@ int main() {
     durchschnitt(a,LENGTH);
     //existiert Funktionen für LENGTH
     int l= sizeof(a)/sizeof(a[0]);
-    printf("Length:(%i/%i)=%i\n", sizeof(a),sizeof(a[0]),l);
+    printf("Length:(%lu/%lu)=%i\n", sizeof(a),sizeof(a[0]),l);
     max(a,LENGTH);
     min(a,LENGTH);
     sort_auf_up(a,LENGTH);
