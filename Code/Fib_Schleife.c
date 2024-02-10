@@ -24,7 +24,7 @@ int fib(int n){
 } */
 
 
-main(){
+int main(){
     for (int n=0; n<=20; n++){
         printf("fib[%i]=%i\n", n, fib(n));
     }   
