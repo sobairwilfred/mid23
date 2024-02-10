@@ -9,7 +9,7 @@ int fib(int n){
 
 } 
 
-main(){
+int main(){
     int n=10;//Eine natürliche Zahl eingeben, die Index in Fibonacci-Folge ist.
     printf("fib[%i]=%i\n", n, fib(n));//Die Fibonacci-Funktion aufrufen.
 }
@@ -18,7 +18,7 @@ main(){
 //Die ganze Folge zeigt. (kommentieren die main-Funktion, dann löschen untene "/*" und "*/".)
 //p.s. auswählen und dann Kurzbefehl {Shift+Alt+A}
 
-/* main(){
+/* int main(){
     for (int n=0; n<=10; n++){
         printf("fib[%i]=%i\n", n, fib(n));
     }   
