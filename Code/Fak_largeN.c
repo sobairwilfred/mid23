@@ -9,7 +9,7 @@ int fak(int n){
     return ergebnis;
 }
 
-main(){
+int main(){
     for(int ex=0; ex<=1; ex++){
         printf("%i \t %i\n",ex,1);
     }   
