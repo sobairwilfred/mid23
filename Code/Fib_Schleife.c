@@ -8,7 +8,7 @@ int fib(int n){
         c=a+b;//fib[n]=fib[n-1]+fib[n-2]
         /*Nach einer Schleife, a und b eine Stelle hinter schieben. 
         z.B. original a ist fib[0], b ist fib[1], 
-        nach erster Schleife ist a=fib[1], b=fib[1]*/
+        nach erster Schleife ist a=fib[1], b=fib[2]*/
         a=b;
         b=c;
     }
