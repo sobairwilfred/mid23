@@ -8,7 +8,7 @@ int addition(int a, int b){
     return c;
 }
 
-main(){
+int main(){
     int x=6;
     int y=7;
     int s=addition(x,y);
