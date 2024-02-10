@@ -19,7 +19,7 @@ double flaeche(rechteck r){
     return area;
 }
 
-void main(){
+int main(){
     punkt p1;
     p1.x = 2;
     p1.y = 1;
