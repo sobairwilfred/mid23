@@ -95,7 +95,7 @@ void sort_ab(int array[], int length){
 }
 
 
-main() {
+int main() {
     int LENGTH = 6;
     int a[6] = { 2, 4, 6, 3, 1, 5 };
     a[2] = 100;
