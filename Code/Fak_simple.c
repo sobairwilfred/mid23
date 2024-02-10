@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-main(){
+int main(){
 /*Alternativ1: Goto und Label*/
     int n1=5;
     int erg1=n1;
