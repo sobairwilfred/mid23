@@ -15,6 +15,6 @@ int ggt(int a, int b){
     return ggt_r(a,b,kleiner);
 }
 
-main(){
+int main(){
     printf("ggT(%i,%i)=%i", 15,12,ggt(15,12));
 }
