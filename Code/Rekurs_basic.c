@@ -12,7 +12,7 @@ int method(int a){
     return a;
 }
 
-main(){
+int main(){
     printf("Main Program Starts!\n");
     int eingeben=0;
     method(eingeben);
