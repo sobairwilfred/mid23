@@ -50,7 +50,7 @@ int forSchleife(int n){
     return ergebnis;
 }
 
-main(){
+int main(){
     int n=9;//einfach hier eine positive ganzzählige Zahl eingeben
     ausgeben(n,gotoLabel(n));
     ausgeben(n,doWhile(n));
