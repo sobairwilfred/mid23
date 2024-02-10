@@ -30,7 +30,7 @@ double betrag(complex c){
     return z;
 }
 
-main(){
+int main(){
     complex x;
     x.re = 6;
     x.im = 7;
