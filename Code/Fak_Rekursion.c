@@ -7,7 +7,7 @@ int fakRekursion(int n){
         return n*fakRekursion(n-1);
 }
 
-main(){
+int main(){
     int n=9;
     printf("%i! ist %i", n,fakRekursion(n));
 }
