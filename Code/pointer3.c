@@ -16,7 +16,7 @@ int geteiltDurch(int * array, int size, int divisor) {
     }
 }
 
-void main() {
+int main() {
     int zahlen[] = { 42, 22, 50, 18, 34 };
     ausgabe(zahlen,5);
     printf("Geteilt durch %i\n", 2);
