@@ -1,4 +1,6 @@
-void main(){
+#include <stdio.h>
+
+int main(){
     int a = 5;
     int *zeiger = &a;
     /* int *zeiger;
