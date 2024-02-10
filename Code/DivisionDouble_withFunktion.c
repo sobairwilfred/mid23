@@ -8,7 +8,7 @@ double quotient(int a, int b){
     return c;
 }
 
-main(){
+int main(){
     int x=23;
     int y=7;
     double q=quotient(x,y);
