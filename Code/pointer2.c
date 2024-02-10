@@ -5,7 +5,7 @@ void dividiere(int a, int b, int * erg, int * rest) {
     *rest=a%b;
 }
 
-void main() {
+int main() {
     int a = 10;
     int b = 3;
     int ergebnis = 0;
