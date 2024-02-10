@@ -33,7 +33,7 @@ double area(dreieck d) {
     return S;
 } 
 
-void main() {
+int main() {
     punkt a;
     a.x = 2;
     a.y = 5;
